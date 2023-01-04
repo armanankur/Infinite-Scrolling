@@ -1,0 +1,38 @@
+.container{
+    padding: 0;
+    margin-top: 5px;
+}
+.person_list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .wrapper{
+    margin-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper button{
+    width: 120px;
+    box-shadow: 0px 2px 2px #BDBDBD;
+    background-color: #F54D70;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+       
+ .wrapper button:hover{
+  background-color: #6A679E;
+ color: white;
+  }
+  .heading{
+    font-family: Poppins;
+    font-size: 25px;
+    color: palevioletred;
+    letter-spacing: 2px;
+  }
